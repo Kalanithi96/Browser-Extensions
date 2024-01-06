@@ -1,0 +1,16 @@
+{
+    "description": "Adding a cool animation to cursor movement",
+    "manifest_version": 2,
+    "name": "Cool Cursor",
+    "version": "1.0",
+  
+    "permissions": ["<all_urls>"],
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": [ "content-script.js"]
+      }
+    ]    
+  }
+  
